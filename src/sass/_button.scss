@@ -1,0 +1,21 @@
+.button {
+width: 200px;
+height: 75px;
+background-color: rgb(208, 212, 207);
+border-radius: 4px;
+font-size: 30px;
+
+}
+
+.button:first-child {
+    margin-right: 20px;
+    background-color: rgb(98, 208, 223);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
